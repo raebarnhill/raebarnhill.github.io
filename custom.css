@@ -1,0 +1,76 @@
+body {
+
+/*-----------------------------------------------------------
+	Background image
+--------------------------------------------------------*/
+
+background-image: url("backgroundimage.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+/*---------------------------------------
+	End background image
+---------------------------------------*/
+
+body {
+  background: #3e4649;
+  color: #f7f7f7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+p {
+  font-size: 16px;
+  color: #cdcdcd;
+}
+
+/*---------------------------------------------------------
+	Jumbotron
+---------------------------------------------------------*/
+
+.jumbotron {
+	background: transparent;
+	text-align: center;
+}
+
+.jumbotron p {
+  color: black;
+  font-size: 26px;
+}
+
+
+/*-------------------------------------------------------------
+	Dropdown menu
+-------------------------------------------------------------*/
+
+.dropdown-menu {
+  background: #2e2f31;
+  border-radius: 0;
+  border: 0;
+}
+.dropdown-menu li a {
+  padding: 10px;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+  background: #2c463c;
+}
+
+
+
+
+
+
+
+
+
+}
