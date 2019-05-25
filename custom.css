@@ -9,22 +9,17 @@ height: 100%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-
+}
 /*---------------------------------------
 	End background image
 ---------------------------------------*/
 
-body {
-  background: #3e4649;
-  color: #f7f7f7;
-  font-family: 'Montserrat', sans-serif;
-}
 
 .navbar {
   margin-bottom: 0;
 }
 
-h1,
+
 h2,
 h3 {
   font-weight: bold;
@@ -35,18 +30,19 @@ p {
 }
 
 /*---------------------------------------------------------
-	Jumbotron
+	My Name
 ---------------------------------------------------------*/
 
-.jumbotron {
-	background: transparent;
-	text-align: center;
+.my-head {
+	font-family: "Lucida Console", Monaco, monospace;
+	text-indent: 50px;
+	margin-top: 200px;
 }
 
-.jumbotron p {
-  color: black;
-  font-size: 26px;
+h1 {
+	font-size: 75px;
 }
+
 
 
 /*-------------------------------------------------------------
@@ -54,28 +50,28 @@ p {
 -------------------------------------------------------------*/
 
 .dropdown-menu {
-  background: #2e2f31;
+  background: #000;
   border-radius: 0;
   border: 0;
 }
+
 .dropdown-menu li a {
   padding: 10px;
+  color: #fff;
 }
 .navbar-inverse .navbar-nav .dropdown-menu li a:hover {
-  background: #2c463c;
+  background: #2B2929;
+  color: #fff;
 }
 
 /*----------------------------------------------------------
 	Containers
 ----------------------------------------------------------*/
 
-.container {
-  border: 2px solid black;
-  border-radius: 5px;
+
+.button {
+	background-color: dark;
 }
-
-
-
 
 
 
