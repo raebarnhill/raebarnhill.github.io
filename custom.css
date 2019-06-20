@@ -5,7 +5,6 @@ body {
 --------------------------------------------------------*/
 font-family: Verdana;
 background-image: url("backgroundimage.jpg");
-height: 100%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -26,7 +25,9 @@ h3 {
 }
 p {
   font-size: 16px;
+  font-family: "Lucida Console", Monaco, monospace;
   color: #cdcdcd;
+  font-weight: bold;
 }
 
 /*---------------------------------------------------------
@@ -39,9 +40,15 @@ p {
 	margin-top: 200px;
 }
 
-h1 {
-	font-size: 75px;
+.display-1 {
+	font-size: 85px;
+	color: #000;
 }
+
+.col-md-6 {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
 
 
 
@@ -70,20 +77,28 @@ h1 {
 
 
 .myBtn {
-	box-shadow:inset 0px 1px 0px 0px #5d6063;
-	background:linear-gradient(to bottom, #454545 5%, #000000 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#454545', endColorstr='#000000',GradientType=0);
-	background-color:#454545;
-	border:1px solid #000000;
+	-moz-box-shadow: -9px 8px 9px -23px #8a858a;
+	-webkit-box-shadow: -9px 8px 9px -23px #8a858a;
+	box-shadow: -9px 8px 9px -23px #8a858a;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #383638), color-stop(1, #747d7d));
+	background:-moz-linear-gradient(top, #383638 5%, #747d7d 100%);
+	background:-webkit-linear-gradient(top, #383638 5%, #747d7d 100%);
+	background:-o-linear-gradient(top, #383638 5%, #747d7d 100%);
+	background:-ms-linear-gradient(top, #383638 5%, #747d7d 100%);
+	background:linear-gradient(to bottom, #383638 5%, #747d7d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#383638', endColorstr='#747d7d',GradientType=0);
+	background-color:#383638;
+	border:1px solid #615c61;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
-	font-family:Verdana;
-	font-size:16px;
-	padding:6px 24px;
+	color:#fafafa;
+	font-family:Georgia;
+	font-size:18px;
+	padding:10px 33px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #000000;
 }
+
 .myBtn:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #454545));
 	background:-moz-linear-gradient(top, #000000 5%, #454545 100%);
@@ -110,8 +125,19 @@ h1 {
 	font-size: 16px;
 	font-weight: bold;
 }
+	
+.contact {
+	color: #000;
+}
 
 
+/*---------------------------------------
+	FOOTER 
+---------------------------------*/
+
+.page-footer {
+	background-color: #000;
+}
 
 
 
