@@ -28,7 +28,7 @@ body{
 
 .navbar {
   margin-bottom: 0;
-  background: #5c5a5a;
+  background: #000;
   color:#e3dcdc;
   padding: 5px;
 
@@ -129,7 +129,7 @@ margin: 0px;
 .dropdown-menu li a {
   padding: 10px;
   color: #fff;
-  background: #5c5a5a;
+  background: #000;
   position:relative;
   z-index:21;
   
